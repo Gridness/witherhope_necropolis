@@ -1,6 +1,6 @@
 # DEBUG
 
-tellraw @a {"text": "Welcome to spire of desolation", "color": "#FFA500"}
+tellraw @a {"text": "[DEBUG] CoA started with no errors", "color": "#FFA500"}
 
 # RAID ENTRANCE LOGIC 
 
@@ -10,6 +10,7 @@ execute run gamerule doInsomnia false
 execute run gamerule keepInventory true
 execute run gamerule doDaylightCycle false
 execute run gamerule doWeatherCycle false
+execute run gamerule mobGriefing false
 
 # CREATE TEAMS FOR PLAYERS
 execute run team add raider {"text":"Raiders","bold":true,"color":"#ff5555"}
