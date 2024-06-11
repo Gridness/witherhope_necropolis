@@ -1,1 +1,0 @@
-execute if entity @e[type=player,team=raider,tag=psionic_resistance] run tag @p[team=raider] remove psionic_resistance
