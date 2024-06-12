@@ -1,3 +1,3 @@
-execute if entity @e[type=player,tag=!devouring_gaze,tag=obelisk_encounter_started] run effect give @a[team=raider] bad_omen 45
+execute if entity @e[type=player,tag=!devouring_gaze,tag=obelisk_encounter_started] run effect give @a[team=raider] bad_omen 30
 execute if entity @e[type=player,team=raider,tag=!devouring_gaze,tag=obelisk_encounter_started] run tag @a[team=raider] add devouring_gaze
-execute if entity @e[type=player,team=raider,tag=devouring_gaze] run schedule function chain_of_ascention:auras/devouring_gaze/devouring_gaze_kill 45s
+execute if entity @e[type=player,team=raider,tag=devouring_gaze] run schedule function chain_of_ascention:auras/devouring_gaze/devouring_gaze_kill 30s
