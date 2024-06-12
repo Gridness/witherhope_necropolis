@@ -30,7 +30,3 @@ execute run team modify spectator deathMessageVisibility hideForOtherTeams
 execute run team modify spectator friendlyFire false
 execute run team modify spectator nametagVisibility always
 execute run team modify spectator seeFriendlyInvisibles true
-
-# CUTSCENE SHIT CAMERA GOES WOOOWOOO AROUND THE RAID
-# DRAMATIC MUSIC
-# CREATE TITLE SPIRE OF DESOLATION WITH SOUND EFFECT
