@@ -1,7 +1,9 @@
 # CLEAR ALL GAMEPLAY TAGS
-tag @a remove devouring_gaze
 tag @a remove obelisk_encounter_started
 tag @a remove obelisk_encounter_phase_1
+tag @a remove obelisk_encounter_phase_2
+tag @a remove obelisk_encounter_phase_3
+tag @a remove devouring_gaze
 tag @a remove psionic_resonance
 
 # CLEAR ALL EFFECTS
@@ -12,6 +14,7 @@ execute run effect clear @a glowing
 execute run scoreboard objectives remove players_within_obelisk_center
 execute run scoreboard objectives remove players_within_obelisk_left
 execute run scoreboard objectives remove players_within_obelisk_right
+execute run scoreboard objectives remove active_obelisks
 execute run scoreboard objectives remove death
 
 # CLEAR ALL TIMERS
