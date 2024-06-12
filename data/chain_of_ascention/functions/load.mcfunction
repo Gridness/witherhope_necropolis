@@ -13,9 +13,9 @@ execute run gamerule doWeatherCycle false
 execute run gamerule mobGriefing false
 
 # CREATE TEAMS FOR PLAYERS
-execute run team add raider {"text":"Raiders","bold":true,"color":"#ff5555"}
-execute run team modify raider displayName {"text":"Raiders","bold":true,"color":"#ff5555"}
-execute run team modify raider prefix {"text":"[Raider] ","bold":true,"color":"#ff5555"}
+execute run team add raider {"text":"Raiders","bold":false,"color":"#ff5555"}
+execute run team modify raider displayName {"text":"Raiders","bold":false,"color":"#ff5555"}
+execute run team modify raider prefix {"text":"[Raider] ","bold":false,"color":"#ff5555"}
 execute run team modify raider collisionRule always
 execute run team modify raider deathMessageVisibility always
 execute run team modify raider friendlyFire false
