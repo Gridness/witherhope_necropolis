@@ -1,3 +1,5 @@
+execute run particle explosion -8 0 -42 1 3 2 0 12 force
+execute run playsound entity.generic.explode master @a ~ ~ ~ 1.0 .6
 execute run setblock -7 0 -43 air
 execute run setblock -7 1 -43 air
 execute run setblock -7 2 -43 air
