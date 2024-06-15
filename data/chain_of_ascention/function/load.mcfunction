@@ -11,6 +11,10 @@ execute run gamerule keepInventory true
 execute run gamerule doDaylightCycle false
 execute run gamerule doWeatherCycle false
 execute run gamerule mobGriefing false
+# execute run gamerule reducedDebugInfo true
+
+execute run scoreboard objectives add wind_charge_consumed minecraft.used:minecraft.wind_charge
+execute run scoreboard players add @a wind_charge_consumed 1
 
 # CREATE TEAMS FOR PLAYERS
 execute run team add raider {"text":"Raiders","bold":false,"color":"#ff5555"}
