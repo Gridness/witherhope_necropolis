@@ -1,6 +1,6 @@
 # DEBUG
 
-tellraw @a {"text": "[DEBUG] SoD started with no errors", "color": "#FFA500"}
+tellraw @a {"text": "WHN started with no errors", "color": "#FFA500"}
 
 # RAID ENTRANCE LOGIC 
 

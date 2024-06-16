@@ -31,4 +31,8 @@ setblock 6 1 -26 cyan_terracotta
 setblock 6 2 -26 cyan_terracotta
 setblock 6 3 -26 cyan_terracotta
 
-setworldspawn 2 0 -28
+setblock 3 0 -28 air
+
+kill @e[type=armor_stand,x=3,y=1,z=-28]
+
+spawnpoint @a[team=raider] 14 0 -28 90
