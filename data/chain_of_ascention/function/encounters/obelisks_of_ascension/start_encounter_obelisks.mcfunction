@@ -10,26 +10,26 @@ execute run tellraw @a {"italic":true,"text":"You are being watched..."}
 
 execute run particle smoke -5 0 -28 1 3 2 0 24 normal
 execute run playsound block.anvil.land master @a ~ ~ ~ 1.0 .5
-setblock 6 0 -30 cyan_terracotta
-setblock 6 1 -30 cyan_terracotta
-setblock 6 2 -30 cyan_terracotta
-setblock 6 3 -30 cyan_terracotta
-setblock 6 0 -29 cyan_terracotta
-setblock 6 1 -29 cyan_terracotta
-setblock 6 2 -29 cyan_terracotta
-setblock 6 3 -29 cyan_terracotta
-setblock 6 0 -28 cyan_terracotta
-setblock 6 1 -28 cyan_terracotta
-setblock 6 2 -28 cyan_terracotta
-setblock 6 3 -28 cyan_terracotta
-setblock 6 0 -27 cyan_terracotta
-setblock 6 1 -27 cyan_terracotta
-setblock 6 2 -27 cyan_terracotta
-setblock 6 3 -27 cyan_terracotta
-setblock 6 0 -26 cyan_terracotta
-setblock 6 1 -26 cyan_terracotta
-setblock 6 2 -26 cyan_terracotta
-setblock 6 3 -26 cyan_terracotta
+setblock 6 0 -30 netherite_block
+setblock 6 1 -30 chiseled_polished_blackstone
+setblock 6 2 -30 chiseled_polished_blackstone
+setblock 6 3 -30 netherite_block
+setblock 6 0 -29 chiseled_polished_blackstone
+setblock 6 1 -29 chiseled_deepslate
+setblock 6 2 -29 chiseled_deepslate
+setblock 6 3 -29 chiseled_polished_blackstone
+setblock 6 0 -28 chiseled_polished_blackstone
+setblock 6 1 -28 chiseled_deepslate
+setblock 6 2 -28 chiseled_deepslate
+setblock 6 3 -28 chiseled_polished_blackstone
+setblock 6 0 -27 chiseled_polished_blackstone
+setblock 6 1 -27 chiseled_deepslate
+setblock 6 2 -27 chiseled_deepslate
+setblock 6 3 -27 chiseled_polished_blackstone
+setblock 6 0 -26 netherite_block
+setblock 6 1 -26 chiseled_polished_blackstone
+setblock 6 2 -26 chiseled_polished_blackstone
+setblock 6 3 -26 netherite_block
 
 setblock 3 0 -28 air
 

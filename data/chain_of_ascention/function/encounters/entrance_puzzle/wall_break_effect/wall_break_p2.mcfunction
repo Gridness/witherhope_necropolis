@@ -1,4 +1,4 @@
-playsound block.netherite_block.break ambient @a ~ ~ ~ 1.0 1.0
+playsound block.netherite_block.break master @a ~ ~ ~ 1.0 1.0
 particle block{block_state:"minecraft:netherite_block"} 43 0 -64 .25 .5 .5 1 50 normal
 particle block{block_state:"minecraft:netherite_block"} 43 0 -65 .25 .5 .5 1 50 normal
 particle block{block_state:"minecraft:netherite_block"} 43 0 -66 .25 .5 .5 1 50 normal
