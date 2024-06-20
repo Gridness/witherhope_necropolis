@@ -23,4 +23,6 @@ setblock 6 3 -26 air
 
 summon armor_stand 3 1 -28 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,CustomName:"{\"text\":\"Step into the abyss...\",\"color\":\"red\"}",CustomNameVisible:1b}
 
+function chain_of_ascention:encounters/obelisks_of_ascension/reset_spawners
+
 function chain_of_ascention:utils/remove_all_encounter_tags

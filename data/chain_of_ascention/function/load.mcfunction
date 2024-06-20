@@ -39,4 +39,4 @@ execute run team modify spectator seeFriendlyInvisibles true
 
 spawnpoint @a 51 0 -66 90
 
-function chain_of_ascention:utils/initiate_raid
+# function chain_of_ascention:utils/initiate_raid
