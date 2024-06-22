@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:marker",
+    "location": {
+      "position": {
+        "x": -19,
+        "y": 5,
+        "z": -16
+      }
+    },
+    "passenger": {}
+  }
+}

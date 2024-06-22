@@ -1,0 +1,2 @@
+execute if predicate chain_of_ascention:is_room_one_skeleton_left_killed run function chain_of_ascention:auras/psionic_resonance/psionic_resonance
+execute if predicate chain_of_ascention:is_room_one_skeleton_left_killed run kill @e[type=marker,tag=void_servant_marker,x=-19,y=5,z=-16,limit=1]

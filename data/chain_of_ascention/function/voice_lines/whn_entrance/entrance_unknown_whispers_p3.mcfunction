@@ -1,0 +1,1 @@
+tellraw @a {"color":"light_purple","italic":true,"text":"The unknown whispers: What you will yet be."}

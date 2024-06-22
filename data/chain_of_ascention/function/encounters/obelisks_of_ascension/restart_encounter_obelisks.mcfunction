@@ -25,4 +25,9 @@ summon armor_stand 3 1 -28 {Invisible:1b,Invulnerable:1b,NoGravity:1b,Marker:1b,
 
 function chain_of_ascention:encounters/obelisks_of_ascension/reset_spawners
 
+function chain_of_ascention:encounters/obelisks_of_ascension/rebuild_room_walls
+
 function chain_of_ascention:utils/remove_all_encounter_tags
+
+kill @e[type=minecraft:wither_skeleton,tag=void_servant]
+kill @e[type=marker,tag=void_servant_marker]
