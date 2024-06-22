@@ -3,7 +3,6 @@ execute if entity @e[type=player,tag=obelisk_encounter_started] run tag @a[team=
 execute if entity @e[tag=obelisk_encounter_started] run scoreboard objectives add players_within_obelisk_center dummy
 execute if entity @e[tag=obelisk_encounter_started] run scoreboard objectives add players_within_obelisk_left dummy
 execute if entity @e[tag=obelisk_encounter_started] run scoreboard objectives add players_within_obelisk_right dummy
-# execute if entity @e[tag=obelisk_encounter_started] run scoreboard objectives add active_obelisks dummy
 execute if entity @e[tag=obelisk_encounter_started] run scoreboard objectives add death deathCount
 execute run function chain_of_ascention:auras/devouring_gaze/devouring_gaze
 execute run tellraw @a {"italic":true,"text":"You are being watched..."}
@@ -36,3 +35,5 @@ setblock 3 0 -28 air
 kill @e[type=armor_stand,x=3,y=1,z=-28]
 
 spawnpoint @a[team=raider] 14 0 -28 90
+
+function chain_of_ascention:encounters/obelisks_of_ascension/spawn_trash

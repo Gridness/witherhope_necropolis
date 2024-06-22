@@ -1,3 +1,6 @@
+# DISABLE MOB SPAWN
+gamerule doMobSpawning false
+
 # CLEAR ALL GAMEPLAY TAGS
 tag @a remove obelisk_encounter_started
 tag @a remove obelisk_encounter_phase_1
@@ -6,8 +9,11 @@ tag @a remove obelisk_encounter_phase_3
 tag @a remove devouring_gaze
 tag @a remove psionic_resonance
 
+tag @a remove visions_started
+
 # CLEAR ALL EFFECTS
 execute run effect clear @a bad_omen
+execute run effect clear @a blindness
 execute run effect clear @a glowing
 
 # CLEAR ALL SCOREBOARDS
