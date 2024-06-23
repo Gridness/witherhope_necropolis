@@ -1,4 +1,5 @@
 difficulty normal
+effect give @a[team=raider] saturation infinite
 
 execute if entity @e[type=player,tag=!obelisk_encounter_started] run tag @a[team=raider] add obelisk_encounter_started
 execute if entity @e[type=player,tag=obelisk_encounter_started] run tag @a[team=raider] add obelisk_encounter_phase_1
