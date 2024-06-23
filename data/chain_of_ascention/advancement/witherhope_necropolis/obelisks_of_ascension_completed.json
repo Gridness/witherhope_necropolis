@@ -5,10 +5,15 @@
     },
     "title":
     {
-      "text": "Obelisks of Ascension",
+      "translate": "witherhope_necropolis.advancement.obelisks_of_ascension.title",
+      "fallback": "Obelisks of Ascension",
       "color": "light_purple"
     },
-    "description": "Complete Obelisks of Ascension in Witherhope Necropolis",
+    "description":
+    {
+      "translate": "witherhope_necropolis.advancement.obelisks_of_ascension.description",
+      "fallback": "Complete Obelisks of Ascension in Witherhope Necropolis"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

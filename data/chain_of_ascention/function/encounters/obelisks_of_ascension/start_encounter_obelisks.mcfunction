@@ -8,7 +8,7 @@ execute if entity @e[tag=obelisk_encounter_started] run scoreboard objectives ad
 execute if entity @e[tag=obelisk_encounter_started] run scoreboard objectives add psionic_mobs_alive dummy
 execute if entity @e[tag=obelisk_encounter_started] run scoreboard objectives add death deathCount
 execute run function chain_of_ascention:auras/devouring_gaze/devouring_gaze
-execute run tellraw @a {"italic":true,"text":"You are being watched..."}
+execute run tellraw @a {"italic":true,"translate":"witherhope_necropolis.encounters.obelisks_of_ascension.start","fallback":"You are being watched..."}
 
 execute run particle smoke -5 0 -28 1 3 2 0 24 normal
 execute run playsound block.anvil.land master @a ~ ~ ~ 1.0 .5

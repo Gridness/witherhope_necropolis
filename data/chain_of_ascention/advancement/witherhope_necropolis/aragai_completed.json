@@ -5,10 +5,15 @@
     },
     "title":
     {
-      "text": "Aragai the Ascendant",
+      "translate": "witherhope_necropolis.advancement.aragai.title",
+      "fallback": "Aragai the Ascendant",
       "color": "light_purple"
     },
-    "description": "Defeat Aragai the Ascendant in Witherhope Necropolis",
+    "description":
+    {
+      "translate": "witherhope_necropolis.advancement.aragai.description",
+      "fallback": "Defeat Aragai the Ascendant in Witherhope Necropolis"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

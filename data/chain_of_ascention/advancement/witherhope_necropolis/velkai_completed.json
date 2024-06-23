@@ -5,10 +5,15 @@
     },
     "title":
     {
-      "text": "Vel'kai, the Twin Lords",
+      "translate": "witherhope_necropolis.advancement.velkai.title",
+      "fallback": "Vel'kai, the Twin Lords",
       "color": "light_purple"
     },
-    "description": "Defeat Vel'kai, the Twin Lords in Witherhope Necropolis",
+    "description":
+    {
+      "translate": "witherhope_necropolis.advancement.velkai.description",
+      "fallback": "Defeat Vel'kai, the Twin Lords in Witherhope Necropolis"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

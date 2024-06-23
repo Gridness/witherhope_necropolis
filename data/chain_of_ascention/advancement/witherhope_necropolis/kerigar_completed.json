@@ -5,10 +5,15 @@
     },
     "title":
     {
-      "text": "Kerrigar, the First Zealot",
+      "translate": "witherhope_necropolis.advancement.kerrigar.title",
+      "fallback": "Kerrigar, the First Zealot",
       "color": "light_purple"
     },
-    "description": "Defeat Kerrigar, the First Zealot in Witherhope Necropolis",
+    "description":
+    {
+      "translate": "witherhope_necropolis.advancement.kerrigar.description",
+      "fallback": "Defeat Kerrigar, the First Zealot in Witherhope Necropolis"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

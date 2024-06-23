@@ -1,1 +1,1 @@
-tellraw @a {"color":"light_purple","italic":true,"text":"The unknown whispers: What you will yet be."}
+tellraw @a {"color":"light_purple","italic":true,"translate":"witherhope_necropolis.voice_over.whn_entrance.p3","fallback":"The unknown whispers: What you will yet be."}

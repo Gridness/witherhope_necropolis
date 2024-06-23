@@ -5,10 +5,15 @@
     },
     "title":
     {
-      "text": "Visions of Darkness",
+      "translate": "witherhope_necropolis.advancement.visions_of_darkness.title",
+      "fallback": "Visions of Darkness",
       "color": "light_purple"
     },
-    "description": "Complete Visions of Darkness in Witherhope Necropolis",
+    "description":
+    {
+      "translate": "witherhope_necropolis.advancement.visions_of_darkness.description",
+      "fallback": "Complete Visions of Darkness in Witherhope Necropolis"
+    },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

@@ -1,2 +1,2 @@
 playsound minecraft:voice_lines.vo_aragai_visions_completed master @a ~ ~ ~
-tellraw @a {"color":"light_purple","italic":true,"text":"The unknown whispers: With many eyes, they will see again."}
+tellraw @a {"color":"light_purple","italic":true,"translate":"witherhope_necropolis.voice_over.visions_of_darkness.completed","fallback":"The unknown whispers: With many eyes, they will see again."}
