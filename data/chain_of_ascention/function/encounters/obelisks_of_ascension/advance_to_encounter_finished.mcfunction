@@ -17,3 +17,4 @@ execute run setblock -23 3 -29 air
 execute run setblock -23 4 -29 air
 execute run particle minecraft:totem_of_undying ~ ~ ~ 1 .5 1 0 5
 execute run schedule function chain_of_ascention:utils/encounter_completed 1t
+advancement grant @a[team=raider] only chain_of_ascention:witherhope_necropolis/obelisks_of_ascension_completed

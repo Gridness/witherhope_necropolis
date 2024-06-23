@@ -1,6 +1,6 @@
 {
     "pack" :{
-        "pack_format": 48,
+        "pack_format": 45,
         "description": "Destiny 2 inspired raid datapack. Required for Witherhope Necropolis map to work. Only for Minecraft 1.21",
         "name" : "Witherhope Necropolis",
         "id" : "witherhope_necropolis",
