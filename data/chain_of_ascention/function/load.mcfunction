@@ -3,6 +3,7 @@
 tellraw @a {"text": "WHN started with no errors", "color": "#FFA500"}
 
 # RAID ENTRANCE LOGIC 
+difficulty peaceful
 
 # UPDATE GAMERULES
 execute run gamerule commandBlockOutput false
@@ -41,5 +42,6 @@ spawnpoint @a 51 0 -66 90
 
 # function chain_of_ascention:utils/initiate_raid
 
-advancement revoke @a everything
+execute if entity @e[type=player,team=raider,tag=!advancements_revoked] run advancement revoke @a everything
+tag @a[team=raider] add advancements_revoked
 advancement grant @a only chain_of_ascention:witherhope_necropolis/whn_entered

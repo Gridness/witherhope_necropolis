@@ -30,4 +30,4 @@ function chain_of_ascention:encounters/obelisks_of_ascension/rebuild_room_walls
 function chain_of_ascention:utils/remove_all_encounter_tags
 
 kill @e[type=minecraft:wither_skeleton,tag=void_servant]
-kill @e[type=#hostile]
+difficulty peaceful
